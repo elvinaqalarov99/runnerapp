@@ -1,0 +1,118 @@
+html{
+	font: 700 10px 'MuseoModerno', cursive;
+	background: #2d3740;
+}
+h1,h2,h3,h4,h5,h6,label,span,p{ font-weight: lighter }
+body{
+	padding: 1rem;
+	background: #1c262f;
+	color: rgb(230,225,225);
+	width: 80%;
+	margin: 0 auto;
+}
+
+#logo{
+	text-align: center;
+}
+
+form{
+	text-align: center;
+}
+label{
+	font-size: 1.8rem;
+}
+
+input[type="number"]{
+	font-family: inherit;
+	background: rgb(230,225,225);
+	width: 40%;
+	margin: 1rem 0;
+	padding: 0.8rem 0;
+	border:none;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+button{
+	font-family: inherit;
+	font-weight: bolder;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: none;
+	background: #0ad9ff;
+	margin: 0.5rem 0 1rem;
+	cursor: pointer;
+	outline: none;
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	border: 1px solid;
+	padding: 1rem 1.2rem;
+}
+
+.entriesWrapper{
+	padding: 2rem 0;
+	font-size: 1.6rem;
+}
+
+.entriesWrapper h3{
+	margin: 0 0 1rem 0;
+	font-weight: lighter;
+}
+
+#data div{
+	background: #141c22;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.8rem;
+	margin: 0 0 1rem 0;
+	padding: 2rem 1rem;
+}
+#data div:last-child{
+	margin: 0 0 2rem 0;
+}
+
+.progress{
+	text-align: center;
+	padding: 0 0 2rem 0;
+}
+
+.progress > h3{ 
+	font-size: 1.6rem;
+	margin: 0 0 2rem 0;
+
+}
+
+.progressCircleWrapper{
+	display: flex;
+	justify-content: center;
+}
+
+#progressCircle{
+	display: flex;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	/*background: conic-gradient( #70db70 30%, #2d3740 30% );*/
+}
+
+#progressCenter{
+	left: 10%;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	background: #1c262f;
+	margin: auto;
+}
+
+@media screen and (max-width: 600px){
+	body{ width: 100% }
+}
+
+
